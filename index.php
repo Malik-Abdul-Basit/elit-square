@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
-        <title>Elet Squ...</title>
+        <title>Elit Square</title>
         <meta name="description" content="User profile overview example"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"/>
@@ -37,18 +37,29 @@
                         <div class="col-md-8 col-sm-12">
                             <div class="nav-portion">
                                 <nav>
-                                    <ul>
+                                    <ul class="d-block overflow-hidden float-left w-100">
                                         <li>
-                                            <a href="#"> Coupons </a>
+                                            <a href="#">
+                                                <img src="assets/images/sezer-menu.png" class="d-mob-inline-block mb-3">
+                                                <span class="d-block">Coupons </span>
+                                            </a>
+                                        </li>
+                                        <li class="active">
+                                            <a href="#">
+                                                <img src="assets/images/search-menu.png" class="d-mob-inline-block mb-3">
+                                                <span class="d-block">Cookery </span>
+                                            </a>
                                         </li>
                                         <li>
-                                            <a href="#" class="active"> Cookery </a>
+                                            <a href="#">
+                                                <img src="assets/images/fork_and_knife-menu.png" class="d-mob-inline-block mb-3">
+                                                <span class="d-block">Meal Plan </span>
+                                            </a>
                                         </li>
-                                        <li>
-                                            <a href="#"> Meal Plan </a>
-                                        </li>
-                                        <li class="d-block d-mob-none">
-                                            <a href="#"> Your List </a>
+                                        <li class="d-mob-inline-none">
+                                            <a href="#">
+                                                <span class="d-block">Your List </span>
+                                            </a>
                                         </li>
                                     </ul>
                                 </nav>
